@@ -1,0 +1,126 @@
+.weatherUi-con {
+    width: 100%;
+    
+}
+.wet-5 {
+    height: 50vh;
+}
+.weat {
+    width: 100%;
+  
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.weath-text {
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-weath-con {
+    width: 100%;
+   
+    background-color: #505050;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-final-1 {
+    width: 90%;
+    height: 100vh;
+    
+    padding: .2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img-final-con-light {
+    width: 100%;
+   
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-final-con-dark {
+    width: 100%;
+   
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-weath {
+    width: 50%;
+    height: 50vh;
+    
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.image-banner-proj-weat {
+    margin-top: 2rem;
+    background-color: transparent;
+    border-radius: 10px;
+ 
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    margin-right: 1rem;
+   
+}
+@media screen and (min-width: 0px) and (max-width:800px) {
+ 
+    .img-final-1 {
+        width: 90%;
+        height: 400vh;
+        
+        padding: .2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:510px) {
+    .img-weath-con {
+        width: 100%;
+        
+        background-color: rgb(240, 240, 240);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-weath {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        padding: .5rem;
+        
+    }
+    .button-con {
+        height: 5vh;
+    }
+}
